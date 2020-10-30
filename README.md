@@ -37,16 +37,16 @@ Resolulção do teste.
 
 ## 👩🏿‍💻 Rotas
 
-- `**POST /repositories`**: A rota deve receber title, url e techs dentro do corpo da requisição. 
+- **`POST /repositories`**: A rota deve receber title, url e techs dentro do corpo da requisição. 
 Formato { title: 'Desafio Node.js', 'http://github.com/...', techs: ["Node.js", "..."] }.
 
-- `**GET /repositories`**: Rota que lista todos os repositório ;
+- **`GET /repositories`**: Rota que lista todos os repositório ;
 
-- `**PUT /repositories/:id`**: Rota que altera um repositório usando o ID. Apenas os campos title, url e techs podem ser alterados;
+- **`PUT /repositories/:id`**: Rota que altera um repositório usando o ID. Apenas os campos title, url e techs podem ser alterados;
 
-- `**DELETE /repositories/:id`**: Rota que exclui um repositório usando o ID;
+- **`DELETE /repositories/:id`**: Rota que exclui um repositório usando o ID;
 
-- `**POST /repositories/:id/likes`**: Rota que soma o numero de likes de um repositório usando o ID do repositório;
+- **`POST /repositories/:id/likes`**: Rota que soma o numero de likes de um repositório usando o ID do repositório;
 
 ## 🚀 Como Rodar
 
