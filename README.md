@@ -38,7 +38,7 @@ Resolulção do teste.
 ## 👩🏿‍💻 Rotas
 
 - **`POST /repositories`**: A rota deve receber title, url e techs dentro do corpo da requisição. 
-Formato { title: 'Desafio Node.js', 'http://github.com/...', techs: ["Node.js", "..."] }.
+Formato { title: 'Desafio Node.js', url: 'http://github.com/...', techs: ["Node.js", "..."] }.
 
 - **`GET /repositories`**: Rota que lista todos os repositório ;
 
@@ -53,6 +53,7 @@ Formato { title: 'Desafio Node.js', 'http://github.com/...', techs: ["Node.js", 
 - Clone o projeto.
 - Entre na pasta do projeto e rode yarn install (pode usar npm install de acordo com a sua configuração).
 - yarn test para rodar os testes.
+- yarn dev para rodar o projeto (localhost:3333).
 
 ## 🤔 Como contribuir
 
