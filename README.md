@@ -46,7 +46,7 @@ Formato { title: 'Desafio Node.js', url: 'http://github.com/...', techs: ["Node.
 
 - **`DELETE /repositories/:id`**: Rota que exclui um repositório usando o ID;
 
-- **`POST /repositories/:id/likes`**: Rota que soma o numero de likes de um repositório usando o ID do repositório;
+- **`POST /repositories/:id/like`**: Rota que soma o numero de likes de um repositório usando o ID do repositório;
 
 ## 🚀 Como Rodar
 
